@@ -24,7 +24,7 @@
 
 The Insurance Dashboard is an interactive web application built with R and the Shiny framework, designed for in-depth analysis of the insurance market. It provides a comprehensive suite of tools for users to explore, visualize, and compare financial and operational metrics across different Insurance Groups, individual Firms, and Managing General Agents (MGAs). 
 
-Key functionalities include side-by-side company comparisons, deep-dive trend analysis for single entities, and the ability to export custom reports and underlying data to both PDF and Excel formats. The application serves as a central hub for market intelligence, combining quantitative data with qualitative information like company news and background details.
+Key functionalities include side-by-side company comparisons, deep-dive trend analysis for single entities, and the ability to export custom reports and underlying data to both PDF and Excel formats.
 
 ---
 
