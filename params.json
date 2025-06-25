@@ -1,0 +1,11 @@
+{
+  "app_name": "test_app",
+  "region": "us-east1",
+  "ram_gb": 2,
+  "r_ver": "4.2.2",
+  "tlmgr": [],
+  "golem_package_name": {},
+  "cache": true,
+  "gh_pat": {},
+  "max_sessions": "Inf"
+}

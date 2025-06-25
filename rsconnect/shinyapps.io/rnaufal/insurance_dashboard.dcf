@@ -1,0 +1,12 @@
+name: insurance_dashboard
+title: insurance_dashboard
+username: rnaufal
+account: rnaufal
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14989447
+bundleId: 10517154
+url: https://rnaufal.shinyapps.io/insurance_dashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,74 @@
+{
+  "apexcharter": {
+    "Package": "apexcharter",
+    "Repository": "CRAN",
+    "Version": "0.4.1"
+  },
+  "config": {
+    "Package": "config",
+    "Repository": "CRAN",
+    "Version": "0.3.1"
+  },
+  "dplyr": {
+    "Package": "dplyr",
+    "Repository": "CRAN",
+    "Version": "1.1.2"
+  },
+  "DT": {
+    "Package": "DT",
+    "Repository": "CRAN",
+    "Version": "0.27"
+  },
+  "htmltools": {
+    "Package": "htmltools",
+    "Repository": "CRAN",
+    "Version": "0.5.5"
+  },
+  "lubridate": {
+    "Package": "lubridate",
+    "Repository": "CRAN",
+    "Version": "1.9.2"
+  },
+  "polished": {
+    "Package": "polished",
+    "Repository": "CRAN",
+    "Version": "0.8.1"
+  },
+  "randomNames": {
+    "Package": "randomNames",
+    "Repository": "CRAN",
+    "Version": "1.5-0.0"
+  },
+  "shiny": {
+    "Package": "shiny",
+    "Repository": "CRAN",
+    "Version": "1.7.4"
+  },
+  "shinydashboard": {
+    "Package": "shinydashboard",
+    "Repository": "CRAN",
+    "Version": "0.7.2"
+  },
+  "shinyWidgets": {
+    "Package": "shinyWidgets",
+    "Repository": "CRAN",
+    "Version": "0.7.6"
+  },
+  "tibble": {
+    "Package": "tibble",
+    "Repository": "CRAN",
+    "Version": "3.2.1"
+  },
+  "tidyr": {
+    "Package": "tidyr",
+    "Repository": "CRAN",
+    "Version": "1.3.0"
+  },
+  "tychobratools": {
+    "Package": "tychobratools",
+    "GithubUsername": "tychobra",
+    "GithubRepo": "tychobratools",
+    "GithubRef": "HEAD",
+    "GithubSHA1": "89dee5331f4cc88c5b1a5a1ba79b5ea65e000263"
+  }
+}

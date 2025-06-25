@@ -1,0 +1,477 @@
+
+span#dash_title {
+    font-size: 18px;
+}
+
+
+/* COMPANY TABlE TAB */
+
+div#company_table_div {
+    justify-content: center;
+    display: flex;
+}
+
+/*/ GROUPVIEW /*/
+
+div#groupview_table_div {
+    justify-content: center;
+    display: flex;
+}
+
+.table_year_div {
+    margin-left: 5%;
+}
+
+
+div#group_firm_table_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+}
+
+i.fas.fa-arrow-right {
+    scale: 120%;
+    color: #a4a4a4;
+    padding-left: 8%;
+}
+
+table.dataTable tr.selected td, table.dataTable tr.selected {box-shadow: inset 0 0 0 9999px #3c8dbc !important;}
+
+
+div#groupview_compare_selected_group_button_div {
+    justify-content: center;
+    display: flex;
+    margin-top: 1%;
+}
+
+div#groupview_compare_selected_firm_button_div {
+    justify-content: center;
+    display: flex;
+    margin-top: 3%;
+}
+
+
+button#custom_btn, button#group_firm_custom_btn, button#mga_custom_btn {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+.datatables th {
+  text-align: center !important;
+}
+
+.datatables table {
+  white-space: nowrap;
+}
+
+tbody {
+  border-right: 1px solid #111;
+  border-left: 1px solid #111;
+  /*border-top: 1px solid #111;*/
+}
+
+.dt-border-left {
+  border-left: 1px solid #111;
+}
+
+.dt-border-right {
+  border-right: 1px solid #111;
+}
+
+.dt-border-top {
+  border-top: 1px solid #111;
+}
+
+.color_white {
+  color: #FFF;
+}
+
+.plot-title {
+    border: 1.5px solid black;
+    width: 25%;
+    display: inline-block;
+    left: 2%;
+    position: relative;
+    margin-bottom: 2%;
+}
+
+.info_button {
+    display: inline-block;
+}
+
+.selection-box {
+    position: relative;
+    left: 25%;
+    text-align: center;
+}
+
+
+
+/*/ SINGLE GRAPH TAB /*/
+
+#single_group_input_ui_div > div[class ='col-sm-3'],
+#single_firm_input_ui_div > div[class ='col-sm-3'] {
+    position: fixed;
+    left: 78%;
+}
+
+#single_group_input_ui_div > div[class ='col-sm-3'] > div[class ='box'],
+#single_firm_input_ui_div > div[class ='col-sm-3'] > div[class ='box']{
+    width: 85%;
+}
+
+.firm-name {
+    margin-top: -5%;
+}
+
+button#global_faq_button {
+    scale: 85%;
+    margin-bottom: 1.5%;
+}
+
+button#global_faq_button:before {
+    content: attr(datahover);
+    visibility: hidden;
+    opacity: 0;
+    scale: 100% 103%;
+    width: max-content;
+    background-color: #e7e7e7;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 9px 5px;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    min-height: 350px;
+    z-index: 1;
+    left: 0;
+    top: 120%;
+}
+
+button#global_faq_button:hover:before {
+  opacity: 1;
+  visibility: visible;
+}
+
+button#total_premiums_single_firm_button,
+button#written_premiums_single_firm_button,
+button#earned_premiums_single_firm_button,
+button#total_losses_single_firm_button,
+button#losses_ratio_single_firm_button
+{
+    scale: 80%;
+    margin-bottom: 1.5%;
+    margin-left: 1%;
+}
+
+button#total_premiums_single_firm_button:before,
+button#written_premiums_single_firm_button:before,
+button#earned_premiums_single_firm_button:before,
+button#total_losses_single_firm_button:before,
+button#losses_ratio_single_firm_button:before
+{
+    content: attr(datahover);
+    visibility: hidden;
+    opacity: 0;
+    scale: 100% 103%;
+    width: max-content;
+    background-color: #e7e7e7;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 9px 5px;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    min-height: 350px;
+    z-index: 1;
+    left: 0;
+    top: 120%;
+}
+
+button#total_premiums_single_firm_button:hover:before
+button#written_premiums_single_firm_button:hover:before,
+button#earned_premiums_single_firm_button:hover:before,
+button#total_losses_single_firm_button:hover:before,
+button#losses_ratio_single_firm_button:hover:before{
+  opacity: 1;
+  visibility: visible;
+}
+
+label[for='select_single_firm'],
+label[for='select_single_group']{
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+}
+
+label[for='single_firm_year_range'],
+label[for='single_group_year_range']{
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+}
+
+.irs-grid-pol.small {height: 0px;}
+
+.bttn-gradient.bttn-primary, .bttn-simple.bttn-primary {
+    background: #3c8dbc;
+}
+
+button#export_single_firm_pdf_bttn,
+button#export_single_group_pdf_bttn {
+    scale: 95%;
+    margin-top: -6%;
+}
+
+button#export_single_group_excel_bttn,
+button#export_single_firm_excel_bttn {
+    scale: 95%;
+    margin-top: -1%;
+}
+
+.inputdiv,
+div#single_group_excel_div,
+div#single_firm_excel_div {
+      justify-content: center;
+      display: flex;
+}
+
+div#single_group_pdf_div,
+div#single_firm_pdf_div{
+      justify-content: center;
+      display: flex;
+      margin-top: 10%;
+}
+
+
+.inputdivpicker {
+    justify-content: center;
+    width: 89%;
+    text-align: center;
+    left: 5%;
+    position: relative;
+}
+
+.dropdown-menu.open {
+    width: 90%;
+}
+
+
+
+
+
+/*/ COMPARIOSON TAB /*/
+
+.shiny-input-container:not(.shiny-input-container-inline) {
+    width: 400px;
+    max-width: 100%;
+}
+
+div[data-value = 'Compare by Group'] > div > div:nth-child(3) {
+    margin-left: 2%;
+}
+
+.boxdiv {
+    margin-top: 10.5%;
+}
+
+#selected_group_box > div > div,
+#selected_firm_box_output > div > div {
+    margin-top: -6%;
+    background: #f2f2f2;
+    border-top: none;
+    font-size: 12px;
+}
+
+#selected_group_box > div,
+#selected_firm_box_output > div {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.boxdiv > div > div > div.box-header > h3 {
+    margin-bottom: 6%;
+    align-text: center;
+}
+
+button#comparison_generate_group_stat_btn {
+    float: right;
+    margin-right: 14%;
+    scale: 95%;
+    margin-top: -1%;
+    margin-bottom: 5%;
+}
+
+button#export_comparison_group_pdf_bttn,
+button#export_comparison_firm_pdf_bttn {
+    margin-left: 2.5%;
+}
+
+#groupyearrange, #firmyearrange {
+    justify-content: right;
+    text-align: center;
+    display: flex;
+    margin-right: 6%;
+}
+
+span#comparison_export_group_ui,
+span#comparison_export_firm_ui{
+    margin-left: 2%;
+    margin-top: 6%;
+    display: flex;
+}
+
+div[data-value *= 'Compare by'] {
+    margin-bottom: -6%;
+}
+
+div[data-value *= 'Compare by'] > div.row > div {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+div[data-value *= 'Compare by'] > div.row > div > div {
+    border-radius: 0px;
+    border-top: 10px solid #ebf1f5;
+}
+
+
+
+div[data-value *= 'Compare by Firm'] > div > div:nth-child(3) > div > div {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+.vscomp-option.group-title .vscomp-option-text {
+    cursor: default;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+#firm_stat_modal > div > div > div.modal-body {
+    justify-content: center;
+    display: flex;
+}
+
+.modal-title {
+    justify-content: center;
+    display: flex;
+    font-weight: 650;
+}
+
+button#generate_compare_firm {
+    scale: 95%;
+    padding-bottom: 7px;
+}
+
+
+/*/ COMPANY WIKI TAB /*/
+
+
+div[class *= 'faq-package'] > h2 {
+    margin-top: -1%;
+    margin-bottom: 1.5%;
+}
+
+
+.faqcollapsible {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.faqcontent {
+    padding-top: 1%;
+}
+
+.faq-package {
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#faq_content {
+    width: 95%;
+    margin-left: 2%;
+}
+
+/*/ MGA TABLE /*/
+
+div#mga_table_div {
+    justify-content: center;
+    display: flex;
+    margin-top: 2%;
+}
+
+/*/ SINGLE MGA OVERVIEW /*/
+
+
+
+h4.mga-title {
+    font-weight: 600;
+}
+
+.mga-box-content {
+    border: 1.5px solid black;
+    width: 70%;
+    min-height: 80px;
+    display: inline-block;
+    padding-top: 9.5%;
+}
+
+/*/
+.mga-content {
+   margin-top: 14%;
+}
+/*/
+
+div#single_mga_news_table {
+    scale: 90%;
+}
+
+#single_mga_latest_news_output > div > div {
+    border: 1.5px solid black;
+}
+
+.shiny-split-layout>div {
+  overflow: visible;
+
+}
+
+/*/ GEOGRAPHY TAB /*/
+
+#geography_export_title {
+  display: inline-block;
+  padding: 1em;
+  font-weight: 700;
+}
+
+div#geography_table_div {
+    justify-content: center;
+    display: flex;
+}
+
+div#geography_table_output {
+    width: 95%;
+}
+
+#geography_box > span > div[class *= "form-group shiny-input-container"] {
+  display: inline-block;
+  width: 25%;
+  scale: 100% 99%;
+}
+
+button#export_geography_pdf_bttn {
+    margin-left: 1em;
+    padding-bottom: 0.375em;
+}
+
+button#export_geography_excel_bttn {
+    margin-left: 1em;
+    padding-bottom: 0.375em;
+}
+
