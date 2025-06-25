@@ -1,8 +1,6 @@
-# 📊 Cyber Dashboard - Cyber Insurance Market Analysis
+# 📊 Insurance Dashboard - Insurance Market Analysis
 
-An interactive R Shiny dashboard for analyzing and comparing performance metrics of companies and MGAs in the cyber insurance market, featuring detailed visualizations and data export capabilities.
-
-### 🚀 [View Live Demo](https://rnaufal.shinyapps.io/insurance_dashboard/) *(Replace with your app's URL)*
+### 🚀 [View Live Demo](https://rnaufal.shinyapps.io/insurance_dashboard/) 
 
 ---
 
